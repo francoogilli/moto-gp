@@ -109,12 +109,12 @@ export default async function ResultsPage() {
         return (
           <div key={item.id} className='text-white grid grid-cols-1 md:grid-cols-2 gap-x-5 pb-5'>
             <div className='flex justify-center items-center rounded-2xl gap-x-6 bg-gradient-to-r from-[#35234D] via-[#7D33BA] to-[#35234D]'>
-              <img src="/89.png" width={130} className='md:w-[130px] w-[90px]' alt="" />
-              <p className='transform md:text-8xl text-6xl pb-2 md:pb-4 uppercase font-bold text-transparent' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}>Leader</p>
+              <img src="/89.png" width={130} className='md:w-[85px] lg:w-[110px] xl:w-[130px] w-[90px]' alt="" />
+              <p className='transform md:text-6xl lg:text-7xl xl:text-8xl text-6xl pb-2 md:pb-3 lg:pb-4 uppercase font-bold text-transparent' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}>Leader</p>
             </div>
             <div className='hidden md:flex  uppercase rounded-2xl pb-2 justify-center items-center bg-gradient-to-r from-[#059505] via-[#1ada1a] to-[#059505]'>
-                <span className='md:text-[3.55rem] text-4xl font-bold text-transparent' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}>GAP to Leader&nbsp;</span> 
-                <span className='md:text-[3.55rem] text-4xl  text-white' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}> &nbsp;+{pointsDifferenceWithSecond}</span>
+                <span className='md:text-4xl lg:text-[3.55rem] text-4xl font-bold text-transparent' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}>GAP to Leader&nbsp;</span> 
+                <span className='md:text-4xl lg:text-[3.55rem] text-4xl  text-white' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}> &nbsp;+{pointsDifferenceWithSecond}</span>
             </div>
           </div>
           
