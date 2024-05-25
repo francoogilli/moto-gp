@@ -102,7 +102,7 @@ export default async function ResultsPage() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className='md:mb-10 mb-6 text-white text-center text-4xl md:text-6xl -tracking-tighter uppercase'>Riders&apos; <span className='font-bold'>Championship</span></h1>
+      <h1 className='md:mb-10 mb-6 text-white text-center text-3xl md:text-6xl -tracking-tighter uppercase'>Riders&apos; <span className='font-bold'>Championship</span></h1>
       
 
       {standings.classification.slice(0, 1).map((item: Classification, index: number) => {
