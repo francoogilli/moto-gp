@@ -112,9 +112,9 @@ export default async function ResultsPage() {
               <img src="/89.png" width={130} className='md:w-[130px] w-[90px]' alt="" />
               <p className='transform md:text-8xl text-6xl pb-2 md:pb-4 uppercase font-bold text-transparent' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}>Leader</p>
             </div>
-            <div className='hidden md:flex md:text-6xl text-4xl uppercase rounded-2xl pb-2 md:pb-2 font-bold text-transparent justify-center items-center bg-gradient-to-r from-[#059505] via-[#1ada1a] to-[#059505]' 
-                style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}> GAP to Leader&nbsp; 
-                <span className='md:text-6xl text-4xl  text-white'> +{pointsDifferenceWithSecond}</span>
+            <div className='hidden md:flex  uppercase rounded-2xl pb-2 justify-center items-center bg-gradient-to-r from-[#059505] via-[#1ada1a] to-[#059505]'>
+                <span className='md:text-[3.55rem] text-4xl font-bold text-transparent' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}>GAP to Leader&nbsp;</span> 
+                <span className='md:text-[3.55rem] text-4xl  text-white' style={{ WebkitTextStroke: '2px white', fontFamily: 'MotoGP-Display' }}> &nbsp;+{pointsDifferenceWithSecond}</span>
             </div>
           </div>
           
@@ -134,7 +134,6 @@ export default async function ResultsPage() {
                 {/* <p className=''>{firstName}</p> */}
                 <p className='font-bold uppercase text-xl md:text-3xl -tracking-tighter'><span className='hidden md:inline capitalize -tracking-tight font-medium'>{firstName} </span>{lastName}</p>
               </div>
-                <img src={`/${item.rider.number}.png`} className='hidden md:inline-block ml-2' width={50} alt="" />
               
               
             </div>
